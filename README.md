@@ -5,12 +5,13 @@ The API server acts as an intermediary for retrieving configuration data and man
 1. Install Dependencies:
    ```bash
    npm install
-:
-2. Create file .env At the root of the project, configure the following:
-    PORT=4000,
-    CONFIG_URL=<URL_Drone_Config_Server>,
-    LOG_URL=<URL_Drone_Log_Server>,
-    LOG_API_TOKEN=<Bearer_Token>,
+
+2. Create file `.env` at the root of the project, configure the following:
+   ```env
+   PORT=4000
+   CONFIG_URL=<URL_Drone_Config_Server>
+   LOG_URL=<URL_Drone_Log_Server>
+   LOG_API_TOKEN=<Bearer_Token>
 
 3. Run Server:
     Bash
