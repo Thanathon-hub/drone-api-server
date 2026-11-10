@@ -14,7 +14,7 @@ The API server acts as an intermediary for retrieving configuration data and man
    LOG_API_TOKEN=<Bearer_Token>
 
 3. Run Server:
-    Bash
+    ```bash
     npm start
 
 The server will run at http://localhost:4000
