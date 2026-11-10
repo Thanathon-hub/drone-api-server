@@ -19,6 +19,10 @@ async function fetchDroneConfig(droneId) {
   return list.find(item => Number(item.drone_id) === Number(droneId));
 }
 
+app.get('/', (req, res) => {
+  res.json({ message: "Drone API Server is running successfully!" });
+});
+
 app.get('/configs/:droneId', async (req, res) => {
   try {
     const { droneId } = req.params;
